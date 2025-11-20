@@ -1,4 +1,4 @@
-import sys
+
 def get_book_text(filepath):
     with open(filepath) as text:
         file_contents = text.read()
